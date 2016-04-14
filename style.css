@@ -1,0 +1,58 @@
+.tower {
+    height: 300px;
+    width: 150px;
+    background-color: lightgrey;
+    margin-right: 13%;
+    color: green;
+    display: inline-block;
+    position: static;
+    vertical-align: top;
+}
+
+body {
+    background-color: black;
+}
+
+span {
+    width:80px;
+    height: 20px;
+    background-color: blue;
+    color: blue;
+    display: inline-block;
+    border-radius: 20px;
+    bottom: 0;
+    text-align: center;
+
+}
+
+#disk1 {
+    width: 80px;
+    color: red;
+    background-color: red;
+    margin-left: 30px;
+}
+
+#disk2 {
+    margin-left:15px;
+    width: 110px;
+    color:blue;
+    background-color: blue;
+}
+#disk3 {
+    color: orange;
+    background-color: orange;
+    width: 130px;
+    margin-left: 5px;
+}
+
+#container {
+    transform: rotate(180deg);
+    width: 900px;
+}
+
+.words {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin:10px;
+}
